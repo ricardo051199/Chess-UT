@@ -34,4 +34,4 @@ function rey(x1, y1, x2, y2) {
     return esMovimientoValido(x1, y1, x2, y2);
 }
 
-export {esMismoColor}
+export { esMismoColor }
