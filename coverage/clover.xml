@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1681009628411" clover="3.2.0">
+  <project timestamp="1681009628411" name="All files">
+    <metrics statements="18" coveredstatements="18" conditionals="26" coveredconditionals="24" methods="1" coveredmethods="1" elements="45" coveredelements="43" complexity="0" loc="18" ncloc="18" packages="2" files="2" classes="2"/>
+    <package name="Piezas">
+      <metrics statements="12" coveredstatements="12" conditionals="26" coveredconditionals="24" methods="1" coveredmethods="1"/>
+      <file name="caballo.js" path="C:\Users\win\Downloads\calidad\repositorios\srpint second\Chess-UT\Piezas\caballo.js">
+        <metrics statements="12" coveredstatements="12" conditionals="26" coveredconditionals="24" methods="1" coveredmethods="1"/>
+        <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="5" type="cond" truecount="6" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="4" type="cond" truecount="6" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="3" type="cond" truecount="5" falsecount="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="2" type="cond" truecount="5" falsecount="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Tablero">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="matrizTablero.js" path="C:\Users\win\Downloads\calidad\repositorios\srpint second\Chess-UT\Tablero\matrizTablero.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -45,3 +45,5 @@ var seleccionado = {
     origen: "",
     destino: ""
 }
+
+module.exports = matrizTablero
