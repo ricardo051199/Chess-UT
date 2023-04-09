@@ -15,13 +15,13 @@ function pintarTablero() {
 }
 
 //Click a cualquier cosa que no sea una celda
-document.addEventListener("click", function (e) {
-    if (e.target.localName != "td") {
-        seleccionado.origen = "";
-        pintarTablero();
-        asignarClick();
-    }
-})
+// document.addEventListener("click", function (e) {
+//     if (e.target.localName != "td") {
+//         seleccionado.origen = "";
+//         pintarTablero();
+//         asignarClick();
+//     }
+// })
 
 function asignarClick() {
     //Se crea celdas y se le asignan todas las celdas 
@@ -366,3 +366,5 @@ function enroque(x1, y1, x2, y2) {
         }
     }
 }
+
+module.exports = recorrer
