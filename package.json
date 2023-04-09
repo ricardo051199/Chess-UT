@@ -1,15 +1,29 @@
 {
   "name": "chess-ut",
   "version": "1.0.0",
-  "description": "",
+  "description": "White Box - CHESS",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "coverage": "test -- --coverage",
+    "test": "jest",
+    "start": "index.html"
   },
-  "author": "",
+  "author": "NOOB",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.0",
-    "jest": "^29.5.0"
-  }
+    "jest": "^29.5.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-jest": "^29.5.0",
+    "parcel-bundler": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardo051199/Chess-UT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ricardo051199/Chess-UT/issues"
+  },
+  "homepage": "https://github.com/ricardo051199/Chess-UT#readme"
 }
