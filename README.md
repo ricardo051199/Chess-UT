@@ -5,25 +5,23 @@
 
 ---
 ## Instalar dependencias
+```npm install```
 
-<span style="color:chartreuse">npm install</span>
-
-<span style="color:chartreuse">npm install --save-dev jest</span>
+```npm install --save-dev jest```
 
 ---
 ## Ejecutar el programa
-
-<span style="color:chartreuse">npm run start</span>
+```npm run start```
  #### ó
- - #### Si usa VISUAL STUDIO CODE instalar extension "Live server". Una vez instalada la extensión, en parte inferior derecha aparecera "Go Live", hacer click para ejecutar el programa
+ #### Si usa VISUAL STUDIO CODE instalar extension "Live server". Una vez instalada la extensión, en parte inferior derecha aparecera "Go Live", hacer click para ejecutar el programa
 ---
 
 ## Ejecutar pruebas unitarias
-<span style="color:chartreuse">npm run test</span>
+```npm run test```
 
 ---
 ## Ejecutar coverage de codigo
-<span style="color:chartreuse">npm test -- --coverage</span>
+```npm install```
 
 ---
 
