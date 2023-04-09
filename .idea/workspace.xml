@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f3fd252-a42f-4613-9ee8-15e83fd98683" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/Funciones.Test/funciones.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Piezas.Tests/alfil.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Tablero.Test/matrizTablero.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Funciones/funciones.js" beforeDir="false" afterPath="$PROJECT_DIR$/Funciones/funciones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piezas/caballo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Piezas/caballo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Piezas.Tests/caballo.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Piezas.Tests/caballo.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Piezas.Tests/reina.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Piezas.Tests/reina.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/Piezas/caballo.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/Piezas/caballo.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/Piezas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/Piezas/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/Tablero/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/Tablero/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/Tablero/matrizTablero.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/Tablero/matrizTablero.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +69,7 @@
       <updated>1680936089494</updated>
       <workItem from="1680936090681" duration="1733000" />
       <workItem from="1680937868644" duration="923000" />
+      <workItem from="1681009422814" duration="4032000" />
     </task>
     <servers />
   </component>

@@ -1,3 +1,4 @@
+
 function caballo(x1, y1, x2, y2, matrizTablero) {
     if (matrizTablero[x2][y2].color === matrizTablero[x1][y1].color) {
         return false;

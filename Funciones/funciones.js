@@ -288,7 +288,7 @@ function moverFicha(seleccion) {
             }
             break;
         case "caballo":
-            if (caballo(x1, y1, x2, y2) == true) {
+            if (caballo(x1, y1, x2, y2, matrizTablero) == true) {
                 victoria(x2, y2);
                 trasladarFicha(x1, y1, x2, y2);
                 cambiarTurno();
@@ -332,7 +332,7 @@ function visualizar() {
                     }
                     break;
                 case "caballo":
-                    if ((caballo(x1, y1, x, y) == true)) {
+                    if ((caballo(x1, y1, x, y, matrizTablero) == true)) {
                         celda.innerHTML = "<span class='suma'>+</span>";
                     }
                     break;
