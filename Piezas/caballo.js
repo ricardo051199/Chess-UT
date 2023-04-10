@@ -1,5 +1,5 @@
 
-function caballo(x1, y1, x2, y2, matrizTablero) {
+function caballo(x1, y1, x2, y2) {
     if (matrizTablero[x2][y2].color === matrizTablero[x1][y1].color) {
         return false;
     } else if (((x1 == x2 - 2) && (y1 == y2 - 1)) || ((x1 - 2 == x2) && (y1 - 1 == y2))) {
