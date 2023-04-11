@@ -367,4 +367,4 @@ function enroque(x1, y1, x2, y2) {
     }
 }
 
-module.exports = recorrer
+module.exports = { recorrer, recorrerDiagonal }

@@ -71,7 +71,7 @@ describe('REY', () => {
     });
 
     test('debería retornar falso para un movimiento inválido del rey en L', () => {
-        global.recorrer = require("../../Funciones/funciones")
+        global.recorrer = require("../../Funciones/funciones").recorrer
         expect(rey.rey(6, 4, 4, 5)).toBe(false);
     });
 
