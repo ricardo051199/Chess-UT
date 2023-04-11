@@ -10,7 +10,7 @@ test("Primera prueba para validar el movimiento del alfil.", () => {
 });
 test("Segunda prueba para validar el movimiento del alfil.", () => {
     let x1 = 1, y1 = 1, x2 = 0, y2 = 0;
-    matrizTablero[x1][x1].color = "blancas"
+    matrizTablero[x1][x1].color = "negro"
     matrizTablero[x2][y2].color = "blancas"
     expect(alfil (x1,y1,x2,y2)).toBe(true);
 });
