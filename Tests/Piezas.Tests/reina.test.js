@@ -1,5 +1,5 @@
 const reina = require("../../Piezas/reina");
-global.matrizTablero = require("../../Tablero/matrizTablero");
+global.matrizTablero = require("../../Tablero/matrizTablero")
 global.recorrer = require("../../Funciones/funciones").recorrer
 global.recorrerDiagonal = require("../../Funciones/funciones").recorrerDiagonal
 
