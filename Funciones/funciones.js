@@ -91,20 +91,22 @@ function cambiarTurno() {
 
 function recorrer(x1, y1, x2, y2) {
     //Comprueba si se interpone algo en horizontal y vertical
-    if (x1 == x2) {
+    if ((x1 == x2) && (y1 == y2)) {
+        return false;
+    } else if (x1 == x2) {
         if (y1 > y2) {//Si va hacia izquierda
             for (let i = (y1 - 1); i > y2; i--) {
                 if (matrizTablero[x1][i].color != "nada") {
                     return false;
                 }
             } return true;
-        } else if (y2 > y1) {//Si va hacia derecha
+        } else {//Si va hacia derecha
             for (let i = (y2 - 1); i > y1; i--) {
                 if (matrizTablero[x1][i].color != "nada") {
                     return false;
                 }
             } return true;
-        } else return false;
+        }
     } else if (y1 == y2) {
         if (x1 > x2) {//Si va hacia arriba
             for (let i = (x1 - 1); i > x2; i--) {
@@ -112,13 +114,13 @@ function recorrer(x1, y1, x2, y2) {
                     return false;
                 }
             } return true;
-        } else if (x2 > x1) {//Si va hacia abajo
+        } else {//Si va hacia abajo
             for (let i = (x2 - 1); i > x1; i--) {
                 if (matrizTablero[i][y1].color != "nada") {
                     return false;
                 }
             } return true;
-        } else return false;
+        }
     } else return false;
 }
 
@@ -288,7 +290,7 @@ function moverFicha(seleccion) {
             }
             break;
         case "caballo":
-            if (caballo(x1, y1, x2, y2, matrizTablero) == true) {
+            if (caballo(x1, y1, x2, y2) == true) {
                 victoria(x2, y2);
                 trasladarFicha(x1, y1, x2, y2);
                 cambiarTurno();
@@ -332,7 +334,7 @@ function visualizar() {
                     }
                     break;
                 case "caballo":
-                    if ((caballo(x1, y1, x, y, matrizTablero) == true)) {
+                    if ((caballo(x1, y1, x, y) == true)) {
                         celda.innerHTML = "<span class='suma'>+</span>";
                     }
                     break;
@@ -367,4 +369,4 @@ function enroque(x1, y1, x2, y2) {
     }
 }
 
-module.exports = recorrer
+module.exports = { recorrer, recorrerDiagonal, reyMovido, trasladarFicha, enroque}

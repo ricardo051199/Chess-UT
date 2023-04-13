@@ -32,11 +32,6 @@ function esMovimientoValido(x1, y1, x2, y2) {
 }
 
 function rey(x1, y1, x2, y2) {
-    // if ([x1, x2, y1, y2].some(val => val > 7) && [x1, x2, y1, y2].some(val => val < 0)) {
-    //     console.log(x1, y1, x2, y2)
-    //     return false;
-    // }
-    console.log(x1, y1, x2, y2)
     return esMovimientoValido(x1, y1, x2, y2);
 }
 
