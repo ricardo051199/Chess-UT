@@ -4,7 +4,7 @@ function peon(x1, y1, x2, y2) {
             return false;
         } else return true;
     } else if (((x1 - 1 == x2 && matrizTablero[x1][y1].color == "blanca") || (x1 == x2 - 1 && matrizTablero[x1][y1].color == "negra")) && (y1 == y2 - 1 || y1 - 1 == y2)) {//Matar
-        if (matrizTablero[x2][y2].color == "nada" || matrizTablero[x2][y2].color == turno) {//Si en la diagonal no hay nada o es del mismo color
+        if (matrizTablero[x2][y2].color == "nada" || matrizTablero[x2][y2].color == "turno") {//Si en la diagonal no hay nada o es del mismo color
             return false;
         } else return true;
     } else if ((x1 == 6 && x2 == 4 && y1 == y2 && matrizTablero[x1][y1].color == "blanca") || (x1 == 1 && x2 == 3 && y1 == y2 && matrizTablero[x1][y1].color == "negra")) {//Movimiento inicio
@@ -15,3 +15,5 @@ function peon(x1, y1, x2, y2) {
         } else return false;
     }
 }
+
+module.exports = peon
