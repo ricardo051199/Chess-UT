@@ -1,5 +1,5 @@
 const torreMovida = require("../../Funciones/funciones").torreMovida;
-describe("TESTS PARA reyMovido", () => {
+describe("TESTS PARA torreMovido", () => {
 
     it('debería retornar movida torre blanca izquierda verdadero ', () => {
         matrizTablero[7][0].nombre = "vacio"
