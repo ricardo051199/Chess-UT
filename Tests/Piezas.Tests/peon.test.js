@@ -51,3 +51,24 @@ test("Prueba para validar el movimiento inicio del peon blanco", () => {
     matrizTablero[x2][y2].color = "nada";
     expect(peon(x1,y1,x2,y2)).toEqual(true);
 });
+
+test("Prueba para validar el movimiento del peon negra si hay una pieza negra adelante", () => {
+    let x1 = 2, y1 = 3, x2 = 3, y2 = 3;
+    matrizTablero[x1][y1].color = "negra";
+    matrizTablero[x2][y2].color = "negra";
+    expect(peon(x1,y1,x2,y2)).toEqual(false);
+});
+
+test("Prueba para validar el movimiento inicio del peon negro", () => {
+    let x1 = 1, y1 = 3, x2 = 3, y2 = 3;
+    matrizTablero[x1][y1].color = "negra";
+    matrizTablero[x2][y2].color = "negra";
+    expect(peon(x1,y1,x2,y2)).toEqual(false);
+});
+
+test("Prueba para validar el movimiento inicio del peon blanco", () => {
+    let x1 = 1, y1 = 4, x2 = 3, y2 = 3;
+    matrizTablero[x1][y1].color = "blanca";
+    matrizTablero[x2][y2].color = "blanca";
+    expect(peon(x1,y1,x2,y2)).toEqual(undefined);
+});
