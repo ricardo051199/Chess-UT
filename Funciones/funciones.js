@@ -369,4 +369,4 @@ function enroque(x1, y1, x2, y2) {
     }
 }
 
-module.exports = { recorrer, recorrerDiagonal, reyMovido, trasladarFicha, enroque, cambiarTurno}
+module.exports = { recorrer, recorrerDiagonal, reyMovido, trasladarFicha, enroque, cambiarTurno, torreMovida}
